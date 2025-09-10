@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Ulul Albab | Creative Generalist</title>
+  <link rel="stylesheet" href="css/style1.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css">
+</head>
+<body>
+
+  <!-- Header -->
+  <header class="header">
+    <div class="logo">Ulul Albab</div>
+    <div class="right-wrapper">
+
+      <!-- Dropdown Menu -->
+      <div class="dropdown" id="customDropdown"> 
+        <button type="button" class="dropdown-btn" aria-haspopup="listbox" aria-expanded="false">
+          <span class="label">3D Artist</span>
+          <span class="arrow"><i class="fa-solid fa-chevron-down"></i></span>
+        </button>
+    
+        <ul class="dropdown-list" role="listbox" tabindex="-1">
+          <li role="option" data-value="index.html" aria-selected="true">3D Artist</li>
+          <li role="option" data-value="branding.html">Branding</li>
+          <li role="option" data-value="tutor.html">Tutor</li>
+        </ul>
+      </div>
+
+      <!-- Shop -->
+      <nav class="right-menu">
+        <a href="https://ululalbabs.gumroad.com/" target="_blank" rel="noopener noreferrer" class="shop">
+          <i class="fa fa-shopping-cart"></i>
+        </a>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Projects Section -->
+  <section class="projects-section">
+    <p class="section-title"></p>
+    <div class="gallery">
+      <div class="gallery-item">
+        <a href="https://www.turbosquid.com/Search/Artists/Ulul-Albab" target="_blank" rel="noopener noreferrer">
+          <img src="assets/images/cover/turbosquid.webp" alt="Turbosquid" >
+          <div class="caption">Turbosquid</div>
+        </a>
+      </div>
+      <div class="gallery-item">
+        <a href="icon-project.html">
+          <img src="assets/images/Icon-Project/10-icon-thumbnail.webp" alt="10 Icon">
+          <div class="caption">10 Icon Project</div>
+        </a>
+      </div>
+      <div class="gallery-item">
+        <a href="https://youtube.com/playlist?list=PLcfsGFGbNzD45FsrwKWbdQU-wWbZuZZtR&si=dS5lA3D6SHGO7WWO"  target="_blank" rel="noopener noreferrer">
+          <img src="assets/images/cover/blender-tutorial.webp" alt="Blender Tutorial" >
+          <div class="caption">Blender Tutorial</div>
+        </a>
+      </div>
+      <div class="gallery-item">
+        <a href="esports-events.html">
+          <img src="assets/images/esports-events/virtual-studio-2.webp" alt="Esports Events">
+          <div class="caption">Esports Events</div>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Floating Contact Button -->
+  <div class="contact-wrapper" id="contactWrapper" aria-label="Contact Me">
+    <button id="contactBtn" class="contact-button" aria-haspopup="true" aria-expanded="false" aria-controls="contactIcons">
+      <i class="fa-solid fa-comment"></i>
+    </button>
+    <div class="contact-icons" id="contactIcons">
+      <a href="mailto:albabgraff@gmail.com" title="Email">
+        <i class="fa-regular fa-envelope"></i>
+      </a>
+      <a href="https://wa.me/6281228276218" target="_blank" rel="noopener noreferrer" title="WhatsApp">
+        <i class="fa-brands fa-whatsapp"></i>
+      </a>
+      <a href="https://instagram.com/ululalbabs" target="_blank" rel="noopener noreferrer" title="Instagram">
+        <i class="fa-brands fa-instagram"></i>
+      </a>
+    </div>
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/three@0.153.0/build/three.min.js"></script>
+  <script src="js/3d.js"></script>
+
+</body>
+</html>

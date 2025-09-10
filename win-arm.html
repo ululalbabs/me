@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Ulul Albab | Creative Generalist</title>
+  <link rel="stylesheet" href="css/style3.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css">
+</head>
+</head>
+<body>
+  <header class="header">
+    <button class="close-btn" id="closeBtn" onclick="goBack()">
+      <i class="fa-solid fa-xmark"></i>
+    </button>
+  </header>
+
+  <section class="projects-section">
+    <h1>Win Armwrestling</h1>
+    <div class="gallery">
+      <div class="gallery-item">
+        <img src="assets/images/win-arm/sketch-logo-win-arm.webp" alt="Sketsa Logo" onclick="openLightbox(this)">
+        <p>Logo Sketch</p>
+      </div>
+
+      <div class="gallery-item">
+        <img src="assets/images/win-arm/poster-a4.webp" alt="Desain Poster Event" onclick="openLightbox(this)">
+        <p>Poster</p>
+      </div>
+
+      <div class="gallery-item">
+        <img src="assets/images/win-arm/after-movie-win-armwrestling.webp" alt="After Movie Win Armwrestling"
+            data-video="assets/video/win-arm/after-movie-wa1.mp4"
+            onclick="openLightbox(this)">
+        <p>After Movie</p>
+      </div>
+
+      <div class="gallery-item">
+        <img src="assets/images/win-arm/desain-kaos-win-arwrestling.webp" alt="Desain Kaos" onclick="openLightbox(this)">
+        <p>Design Feed</p>
+      </div>
+
+      <div class="gallery-item">
+        <img src="assets/images/win-arm/insight-win-arm.webp" alt="Insights" onclick="openLightbox(this)">
+        <p>Insigts</p>
+      </div>
+
+      <div class="gallery-item">
+        <img src="assets/images/win-arm/sertifikat-01.webp" alt="Desain Sertifikat" onclick="openLightbox(this)">
+        <p>Certificate Design</p>
+      </div>
+
+      <div class="gallery-item">
+        <img src="assets/images/win-arm/poster-wa-2.webp" alt="Desain Kaos" onclick="openLightbox(this)">
+        <p>Poster</p>
+      </div>
+
+      <div class="gallery-item">
+        <img src="assets/images/win-arm/cinematic-trailer-win-arm.webp" alt="Teaser Win Armwrestling"
+            data-video="assets/video/win-arm/trailer-wa1.mp4"
+            onclick="openLightbox(this)">
+        <p>Teaser</p>
+      </div>
+
+    </div>
+  </section>
+      
+  <!-- Lightbox -->
+  <div class="lightbox" id="lightbox">
+    <div class="lightbox-inner" onclick="event.stopPropagation()">
+      <button class="close" onclick="closeLightbox()" aria-label="Close">
+        <i class="fa-solid fa-xmark"></i>
+      </button>
+      <div id="lightbox-content"></div>
+    </div>
+  </div>
+
+  <script src="js/allscript.js"></script>
+  
+</body>
+</html>

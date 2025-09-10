@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Ulul Albab | Creative Generalist</title>
+  <link rel="stylesheet" href="css/style3.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css">
+</head>
+<body>
+  <header class="header">
+    <button class="close-btn" id="closeBtn" onclick="goBack()">
+      <i class="fa-solid fa-xmark"></i>
+    </button>
+  </header>
+
+  <section class="projects-section">
+    <h1>Win Wash</h1>
+    <div class="gallery">
+      <div class="gallery-item">
+        <img src="assets/images/win-wash/promo-coating-feed.webp" alt="Design Promo" onclick="openLightbox(this)">
+        <p>Design Feed</p>
+      </div>
+
+      <div class="gallery-item">
+        <img src="assets/images/win-wash/anti-kusam-club-new.webp" alt="Motion Graphic Cuci Motor"
+            data-video="assets/video/win-wash/anti-kusam-club.mp4"
+            onclick="openLightbox(this)">
+        <p>Motion Graphic</p>
+      </div>
+
+      <div class="gallery-item">
+        <img src="assets/images/win-wash/insight-win-wash.webp" alt="Insight Instagram - Win Wash" onclick="openLightbox(this)">
+        <p>Insights</p>
+      </div>
+
+      <div class="gallery-item">
+        <img src="assets/images/win-wash/wax-premium.webp" alt="Motion Graphic Reels"
+            data-video="assets/video/win-wash/wax-premium.mp4"
+            onclick="openLightbox(this)">
+        <p>Motion Graphic</p>
+      </div>
+
+      <div class="gallery-item">
+        <img src="assets/images/win-wash/pricelist-a4.webp" alt="Desain Poster" onclick="openLightbox(this)">
+        <p>Poster</p>
+      </div>
+
+      <div class="gallery-item">
+        <img src="assets/images/win-wash/you-drive-we-clean.webp" alt="Motion Graphic Content"
+            data-video="assets/video/win-wash/youdriveweclean.mp4"
+            onclick="openLightbox(this)">
+        <p>Motion Graphic</p>
+      </div>
+
+      <div class="gallery-item">
+        <img src="assets/images/win-wash/kenapa-win-wash.webp" alt="Desain Feed" onclick="openLightbox(this)">
+        <p>Design Feed</p>
+      </div>
+
+      <div class="gallery-item">
+        <img src="assets/images/win-wash/sore-semangat-new.webp" alt="Editing video content"
+            data-video="assets/video/win-wash/sore.mp4"
+            onclick="openLightbox(this)">
+        <p>Editing Video</p>
+      </div>
+
+      <div class="gallery-item">
+        <img src="assets/images/win-wash/kenapa-win-wash.webp" alt="desain feed" onclick="openLightbox(this)">
+        <p>Design Feed</p>
+      </div>
+
+      <div class="gallery-item">
+        <img src="assets/images/win-wash/cuci-motor-hidrolik,-cuci-salju,-poles.webp" alt="feed design" onclick="openLightbox(this)">
+        <p>Design Feed</p>
+      </div>
+
+      <div class="gallery-item">
+        <img src="assets/images/win-wash/kawasaki-z-900-new.webp" alt="editing video win wash"
+            data-video="assets/video/win-wash/kawasaki-z-900.mp4"
+            onclick="openLightbox(this)">
+        <p>Editing Video</p>
+      </div>
+
+      <div class="gallery-item">
+        <img src="assets/images/win-wash/jemur-motor.webp" alt="desain feed kreatif" onclick="openLightbox(this)">
+        <p>Design Feed</p>
+      </div>
+
+      <div class="gallery-item">
+        <img src="assets/images/win-wash/promo-coating.webp" alt="editing video coating"
+            data-video="assets/video/win-wash/promo-coating.mp4"
+            onclick="openLightbox(this)">
+        <p>Editing Video</p>
+      </div>
+
+      <div class="gallery-item">
+        <img src="assets/images/win-wash/polished-to-shine-new.webp" alt="motion graphic poles motor"
+            data-video="assets/video/win-wash/polished-to-shine.mp4"
+            onclick="openLightbox(this)">
+        <p>Motion Graphic</p>
+      </div>
+
+      <div class="gallery-item">
+        <img src="assets/images/win-wash/premium-wash-2.webp" alt="motion grapic cuci motor"
+            data-video="assets/video/win-wash/premium-wash2.mp4"
+            onclick="openLightbox(this)">
+        <p>Motion Graphic</p>
+      </div>
+
+      <div class="gallery-item">
+        <img src="assets/images/win-wash/kata-mereka-tentang-kami.webp" alt="desain feed win wash" onclick="openLightbox(this)">
+        <p>Design Feed</p>
+      </div>
+
+      <div class="gallery-item">
+        <img src="assets/images/win-wash/premium-wash-new.webp" alt="animasi reels cuci premium"
+            data-video="assets/video/win-wash/premium-wash.mp4"
+            onclick="openLightbox(this)">
+        <p>Motion Graphic</p>
+      </div>
+
+      <div class="gallery-item">
+        <img src="assets/images/win-wash/cuci-motor-hidrolik.webp" alt="feed cuci motor hidrolik" onclick="openLightbox(this)">
+        <p>Design Feed</p>
+      </div>
+
+      <div class="gallery-item">
+        <img src="assets/images/win-wash/coating-sonic-new.webp" alt="motion graphic coating"
+            data-video="assets/video/win-wash/coating-sonic.mp4"
+            onclick="openLightbox(this)">
+        <p>Motion Graphic</p>
+      </div>
+    </div>
+  </section>
+
+      <!-- Lightbox -->
+      <div class="lightbox" id="lightbox">
+        <div class="lightbox-inner" onclick="event.stopPropagation()">
+          <button class="close" onclick="closeLightbox()" aria-label="Close">
+            <i class="fa-solid fa-xmark"></i>
+          </button>
+          <div id="lightbox-content"></div>
+        </div>
+      </div>
+
+  <script src="js/allscript.js"></script>
+  
+</body>
+</html>

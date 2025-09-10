@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Ulul Albab | Creative Generalist</title>
+  <link rel="stylesheet" href="css/style3.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css">
+</head>
+<body>
+  <header class="header">
+    <button class="close-btn" id="closeBtn" onclick="goBack()">
+      <i class="fa-solid fa-xmark"></i>
+    </button>
+  </header>
+
+  <section class="projects-section">
+    <h1>Esports Events</h1>
+    <div class="gallery">
+      <div class="gallery-item">
+        <img src="assets/images/esports-events/virtual-studio-2.webp" alt="3D Virtual Studio" onclick="openLightbox(this)">
+        <p>Virtual Studio</p>
+      </div>
+
+      <div class="gallery-item">
+        <img src="assets/images/esports-events/batik.webp" alt="3D Stinger"
+            data-video="assets/video/esports-events/batik.mp4"
+            onclick="openLightbox(this)">
+        <p>Stinger</p>
+      </div>
+
+      <div class="gallery-item">
+        <img src="assets/images/esports-events/bumper-pesc.webp" alt="3D Bumper Event"
+            data-video="assets/video/esports-events/bumper-pesc.mp4"
+            onclick="openLightbox(this)">
+        <p>Bumper</p>
+      </div>
+
+      <div class="gallery-item">
+        <img src="assets/images/esports-events/event-stage.webp" alt="3D Event Stage Design" onclick="openLightbox(this)">
+        <p>Event Stage</p>
+      </div>
+
+      <div class="gallery-item">
+        <img src="assets/images/esports-events/fest.webp" alt="3D Stinger Esports"
+            data-video="assets/video/esports-events/fest.mp4"
+            onclick="openLightbox(this)">
+        <p>Stinger</p>
+      </div>
+
+      <div class="gallery-item">
+        <img src="assets/images/esports-events/ice.webp" alt="3D Stinger Event"
+            data-video="assets/video/esports-events/ice.mp4"
+            onclick="openLightbox(this)">
+        <p>Stinger</p>
+      </div>
+
+      <div class="gallery-item">
+        <img src="assets/images/esports-events/ruj.webp" alt="Stinger Esports"
+            data-video="assets/video/esports-events/fire.mp4"
+            onclick="openLightbox(this)">
+        <p>Stinger</p>
+      </div>
+
+      <div class="gallery-item">
+        <img src="assets/images/esports-events/vfx.webp" alt="3D Stinger"
+            data-video="assets/video/esports-events/vfx.mp4"
+            onclick="openLightbox(this)">
+        <p>Stinger</p>
+      </div>
+
+      <div class="gallery-item">
+        <img src="assets/images/esports-events/virtual-studio.webp" alt="Virtual Studio Design" onclick="openLightbox(this)">
+        <p>Virtual Studio</p>
+      </div>
+
+      <div class="gallery-item">
+        <img src="assets/images/esports-events/virtual-studio-3.webp" alt="3D Studio Esports" onclick="openLightbox(this)">
+        <p>Virtual Studio</p>
+      </div>
+      
+      <div class="gallery-item">
+        <img src="assets/images/esports-events/stinger-2.webp" alt="3D Stinger Event"
+            data-video="assets/video/esports-events/stinger.mp4"
+            onclick="openLightbox(this)">
+        <p>Stinger</p>
+      </div>
+
+      <div class="gallery-item">
+        <img src="assets/images/esports-events/stinger-3.webp" alt="3D stinger"
+            data-video="assets/video/esports-events/stinger-emkay.mp4"
+            onclick="openLightbox(this)">
+        <p>Stinger</p>
+      </div>
+
+      <div class="gallery-item">
+        <img src="assets/images/esports-events/stinger-ruj.webp" alt="3d stinger"
+            data-video="assets/video/esports-events/stinger-ruj.mp4"
+            onclick="openLightbox(this)">
+        <p>Stinger</p>
+      </div>
+
+      <div class="gallery-item">
+        <img src="assets/images/esports-events/transisi-emkay.webp" alt="3d Transition"
+            data-video="assets/video/esports-events/transisi-emkay.mp4"
+            onclick="openLightbox(this)">
+        <p>Transition</p>
+      </div>
+
+      <div class="gallery-item">
+        <img src="assets/images/esports-events/transisi-ruj.webp" alt="3d transition esport"
+            data-video="assets/video/esports-events/transition-ruj.mp4"
+            onclick="openLightbox(this)">
+        <p>Transition</p>
+      </div>
+
+      <div class="gallery-item">
+        <img src="assets/images/esports-events/transisi1.webp" alt="3d Event Transition"
+            data-video="assets/video/esports-events/transisi.mp4"
+            onclick="openLightbox(this)">
+        <p>Transition</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Lightbox -->
+  <div class="lightbox" id="lightbox">
+    <div class="lightbox-inner" onclick="event.stopPropagation()">
+      <button class="close" onclick="closeLightbox()" aria-label="Close">
+        <i class="fa-solid fa-xmark"></i>
+      </button>
+      <div id="lightbox-content"></div>
+    </div>
+  </div>
+
+  <script src="js/allscript.js"></script>
+  
+</body>
+</html>
